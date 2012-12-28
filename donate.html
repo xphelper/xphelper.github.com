@@ -1,0 +1,85 @@
+---
+layout: page
+title: 捐助我们
+group: navigation
+weight: 5
+---
+{% include JB/setup %}
+<style type="text/css" media="screen">
+	.benefit-unmatched
+	{
+		color: #999;
+		text-decoration: line-through;
+	}
+	.btn-success{background-color:#5bb75b;background-image:-moz-linear-gradient(top, #62c462, #51a351);background-image:-ms-linear-gradient(top, #62c462, #51a351);background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#62c462), to(#51a351));background-image:-webkit-linear-gradient(top, #62c462, #51a351);background-image:-o-linear-gradient(top, #62c462, #51a351);background-image:linear-gradient(top, #62c462, #51a351);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#62c462', endColorstr='#51a351', GradientType=0);border-color:#51a351 #51a351 #387038;border-color:rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);filter:progid:DXImageTransform.Microsoft.gradient(enabled = false);}.btn-success:hover,.btn-success:active,.btn-success.active,.btn-success.disabled,.btn-success[disabled]{background-color:#51a351;}
+.btn-success:active,.btn-success.active{background-color:#408140 \9;}
+</style>
+    <script type="text/javascript" charset="utf-8">
+        function ChangeLi(id, v, val) {
+            if (v >= val) {
+                jQuery("#" + id).removeClass("benefit-unmatched");
+            }
+            else {
+                jQuery("#" + id).addClass("benefit-unmatched");
+            }
+        }
+        jQuery(function() {
+            jQuery("#SliderSingle").slider({
+                from: 1,
+                to: 100,
+                step: 1,
+                heterogeneity: ['50/70'],
+                dimension: '元',
+                skin: "plastic",
+                onstatechange: function() {
+                    var v = parseInt(jQuery("#SliderSingle").val());
+                    if (v == NaN) {
+                        return;
+                    }
+					jQuery("#payAmount").val(v);
+                    ChangeLi("li2", v, 10);
+                    ChangeLi("li3", v, 30);
+                    ChangeLi("li4", v, 50);
+                    ChangeLi("li5", v, 70);
+                    ChangeLi("li6", v, 90);
+                }
+            });
+			jQuery("#aOther").click(function(){
+				document.getElementById("formOther").submit();
+			});
+			jQuery("#aPayAmount").click(function(){
+				document.getElementById("formPayAmount").submit();
+			});
+        });
+    </script>
+<div style="margin-bottom: 30px;">
+如果您确实感觉助手帮助到了您，并且您愿意捐助任意金额以支持鼓励我们继续保持更新，那么请在支付宝中捐助我们。
+</div>
+<div style="width: 100%;margin-bottom: 15px;">
+	捐助
+	<span style="display: inline-block; width: 400px; padding: 0 5px;"><input id="SliderSingle" type="slider" name="price" value="10" /></span>
+	人民币。<a id="aOther" href="javascript:void()">捐助其他金额</a>
+</div>
+<div>
+<div style="float: left;">
+	<ul>
+		<li id="li1">您会收到一封感谢信，您的大恩大德我们铭记于心。</li>
+		<li id="li2">您可以提交bug，我会在第一时间将其修复</li>
+		<li id="li3">您可以提出一个你想要的功能，我会尽力将其实现！(不要提不现实的功能 :P )</li>
+		<li id="li4">如果我们相遇，我请您喝点心！</li>
+		<li id="li5">你真好！来，请您喝啤酒！啤酒爽歪歪！</li>
+		<li id="li6"><b>您的捐助是我们的动力。</b></li>
+	</ul>
+	
+</div>
+<div style="padding:40px 60px;float:left;">
+<a id="aPayAmount" href="javascript:void()" class="btn btn-large btn-success">捐 助</a>
+</div>
+</div>
+<form id="formOther" action="https://shenghuo.alipay.com/send/payment/fill.htm" method="post" target="_blank">
+	<input type="hidden" name="optEmail" value="xphelper@163.com"/>
+</form>
+<form id="formPayAmount" action="https://shenghuo.alipay.com/send/payment/fill.htm" method="post" target="_blank">
+	<input type="hidden" name="optEmail" value="xphelper@163.com"/>
+	<input id="payAmount" type="hidden" name="payAmount"/>
+</form>

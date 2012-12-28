@@ -10,7 +10,9 @@ title: XP订票助手
 
 ### 运行环境
 
-Win8,Win7,WinXp,Win2000,Win2003
+Win8,Win7,Vista,WinXp,Win2000,Win2003
+
+【注意: WinXp及以下系统需要<a href="https://www.microsoft.com/zh-cn/download/details.aspx?id=1639" target="_blank">.NET Framework</a>，如果您的系统中出现“初始化失败”的字样，请<a href="http://download.microsoft.com/download/c/6/e/c6e88215-0178-4c6c-b5f3-158ff77b1f38/NetFx20SP2_x86.exe" target="_blank">点击下载.NET Framework 2.0</a>！】
 
 ### 软件截图
 

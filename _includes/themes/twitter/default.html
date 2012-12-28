@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>{{ page.title }}</title>
+    <title>{% if page.title != site.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
 	{% if site.keywords %}<meta name="keywords" content="{{ site.keywords }}" />{% endif %}
     {% if site.description %}<meta name="description" content="{{ site.description }}">{% endif %}
     <meta name="author" content="{{ site.author.name }}">
@@ -15,14 +15,10 @@
     <!-- Le styles -->
     <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="{{ ASSET_PATH }}/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
-
+	<link rel="stylesheet" href="{{ ASSET_PATH }}/css/jquery.slider.min.css" type="text/css">
+	<script type="text/javascript" src="{{ ASSET_PATH }}/js/jquery-1.7.1.js"></script>
+	<script type="text/javascript" src="{{ ASSET_PATH }}/js/jquery.slider.min.js"></script>
     <!-- Le fav and touch icons -->
-  <!-- Update these with your own images
-    <link rel="shortcut icon" href="images/favicon.ico">
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
-  -->
   </head>
  
   <body>
@@ -42,7 +38,7 @@
 
     <div class="container">
 
-      <div class="content">
+      <div id="jiathis_main" class="content">
         {{ content }}
       </div>
 
@@ -53,5 +49,29 @@
     </div> <!-- /container -->
 
     {% include JB/analytics %}
+	
+<!-- JiaThis Button BEGIN -->
+<div class="jiathis_share_slide jiathis_share_24x24" id="jiathis_share_slide">
+<div class="jiathis_share_slide_top" id="jiathis_share_title"></div>
+<div class="jiathis_share_slide_inner">
+<div class="jiathis_style_24x24">
+<a class="jiathis_button_qzone"></a>
+<a class="jiathis_button_tsina"></a>
+<a class="jiathis_button_tqq"></a>
+<a class="jiathis_button_renren"></a>
+<a class="jiathis_button_kaixin001"></a>
+<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+<script type="text/javascript">
+var jiathis_config = {data_track_clickback:'true'
+	,slide:{
+		divid:'jiathis_main',
+		pos:'left'
+	}
+};
+</script>
+<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1345212318569675" charset="utf-8"></script>	
+<script type="text/javascript" src="http://v3.jiathis.com/code/jiathis_slide.js" charset="utf-8"></script>
+</div></div></div>
+<!-- JiaThis Button END -->
   </body>
 </html>
