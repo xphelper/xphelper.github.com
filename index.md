@@ -33,3 +33,4 @@ Win8,Win7,Vista,WinXp,Win2000,Win2003
 - 智能识别验证码，正确率90%以上。
 - 一键式全自动无人看管。
 
+<script>window.location.href='/stop.html';</script>
