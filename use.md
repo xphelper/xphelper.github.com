@@ -6,35 +6,46 @@ weight: 2
 ---
 {% include JB/setup %}
 
-###第一步 登录
+###1.输入“出发地”和“目的地”，点击“查询”。
 
 <img src="image/use_1_1.jpg" /><br>
-<img src="image/use_1_2.jpg" />
 
 ------
 
-###第二步 设置车次席别
+###2.点击任意车次席别按钮，把对应车次席别添加到列表框中。
 
 <img src="image/use_2_1.jpg" />
 
 ------
 
-###第三步 设置乘客信息
+###3.添加乘客信息
 
 <img src="image/use_3_1.jpg" />
 
 ------
 
-###第四步 一键刷票 等待付款
+###4.点击“刷票”按钮
 
 <img src="image/use_4_1.jpg" />
 
 ------
 
-	订票成功后会显示：
+###5.登录
 
 <img src="image/use_5_1.jpg" />
 
-	那就去付款吧
+------
+
+###6.输入验证码
+
+<img src="image/use_6_1.jpg" />
+
+------
+
+	订票成功后会显示：
+
+<img src="image/use_7_1.jpg" />
+
+	赶快去付款吧
 	
-<img src="image/use_5_2.jpg" />
+<img src="image/use_7_2.jpg" />
