@@ -30,4 +30,4 @@ weight: 6
 ------
 
 ##在哪获取邀请码？
-	网址：http://sn.xphelper.com/2a4cdfd18f944642.aspx（本次发放50个，先到先得）
+	网址：http://sn.xphelper.com/2a4cdfd18f944642.aspx（1月7日至1月10日，每日发放5个）
