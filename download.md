@@ -7,7 +7,7 @@ weight: 1
 
 {% include JB/setup %}
 
-##版本：2.0.8 更新时间：2014-01-12
+##版本：2.0.9 更新时间：2014-01-12
 
   - <a href="http://pan.baidu.com/s/1kTmcyHL" target="_blank">下载地址1</a>
   - <a href="http://yunpan.cn/QzuXGtvVgymJq" target="_blank">下载地址2</a>
