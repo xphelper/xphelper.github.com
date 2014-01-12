@@ -7,9 +7,9 @@ weight: 1
 
 {% include JB/setup %}
 
-##版本：2.0.9 更新时间：2014-01-12
+##版本：2.0.10 更新时间：2014-01-13
 
-  - <a href="http://pan.baidu.com/s/1kTmcyHL" target="_blank">下载地址1</a>
-  - <a href="http://yunpan.cn/QzuXGtvVgymJq" target="_blank">下载地址2</a>
+  - <a href="http://pan.baidu.com/s/1mghWCjA" target="_blank">下载地址1</a>
+  - <a href="http://yunpan.cn/Qzr2HGx6PSLUe" target="_blank">下载地址2</a>
   
 【注意: 如果您的系统中出现“初始化失败”的字样，请<a href="http://download.microsoft.com/download/c/6/e/c6e88215-0178-4c6c-b5f3-158ff77b1f38/NetFx20SP2_x86.exe" target="_blank">点击下载.NET Framework 2.0</a>！】
