@@ -7,6 +7,12 @@ weight: 3
 
 {% include JB/setup %}
 
+**版本：2.0.11，更新时间：2014-01-14**
+
+  - 修复刷票按钮显示BUG
+  - 修复轮询日期添加BUG
+  - 增加自动更新功能（感谢<a href='http://t.qq.com/ccfish' target="_blank">木魚</a>提供的<a href='http://www.fishlee.net/soft/simple_autoupdater/' target="_blank">自动更新库</a>。）
+
 **版本：2.0.10，更新时间：2014-01-13**
 
   - 订票成功后自动停止刷新（如果使用优优云，减少优优云识别验证码）。
