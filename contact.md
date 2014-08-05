@@ -9,7 +9,6 @@ weight: 4
 
   - QQ交流群1：<a href="http://url.cn/R6mFkq" target="_blank">120770970</a>
   - QQ交流群2：<a href="http://url.cn/Jb8M7S" target="_blank">290186213</a>
-  - QQ交流群3：<a href="http://url.cn/PP4aY2" target="_blank">93979501</a>(感谢【韓╱/.安静】提供的超级群)
   - 邮箱：xphelper#163.com(把#换成@)
 	
   - 欢迎提供各种宝贵意见建议，不胜感激！
