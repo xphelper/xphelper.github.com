@@ -45,4 +45,6 @@ Win8,Win7,Vista,WinXp,Win2000,Win2003
 【多CDN模式】：运行一个软件，同时连接多台不同服务器，有效过滤CDN缓存带来的过期数据，率先获取最新车票信息，快人一步提交订单，抢票成功率明显提高。
 
 
-友情链接：<a href='http://xiazai.zol.com.cn/'><img src='http://icon.zol-img.com.cn/xiazai/image/logos.png'></a>|<a href='http://sj.zol.com.cn/'><img src='http://icon.zol-img.com.cn/xiazai/image/logos.png'></a>
+## 友情链接
+
+<a href='http://xiazai.zol.com.cn/'><img src='http://icon.zol-img.com.cn/xiazai/image/logos.png'></a>
