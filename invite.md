@@ -31,4 +31,4 @@ weight: 6
 ------
 
 ##在哪获取邀请码？
-	网址：http://sn.xphelper.com/2a4cdfd18f944642.aspx
+	网址：http://sn.xphelper.com/invite.aspx
