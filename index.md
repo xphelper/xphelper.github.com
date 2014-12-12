@@ -47,4 +47,4 @@ Win8,Win7,Vista,WinXp,Win2000,Win2003
 
 ## 友情链接
 
-<a href='http://xiazai.zol.com.cn/'><img src='http://icon.zol-img.com.cn/xiazai/image/logos.png'></a>
+<a href='http://www.jisuxz.com/'>极速下载</a> | <a href='http://www.huacolor.com/'>华彩软件站</a>
