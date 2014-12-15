@@ -47,4 +47,4 @@ Win8,Win7,Vista,WinXp,Win2000,Win2003
 
 ## 友情链接
 
-<a href='http://www.jisuxz.com/'>极速下载</a> | <a href='http://www.huacolor.com/' target='_blank'>华彩软件</a> | <a href='http://www.33lc.com/' target='_blank'>绿茶软件</a> | <a href='http://www.cr173.com/' target='_blank'>西西软件</a> | <a href='http://www.orsoon.com/' target='_blank'>未来软件</a> | <a href='http://www.9553.com/' target='_blank'>9553下载</a>
+<a href='http://www.jisuxz.com/'>极速下载</a> | <a href='http://www.huacolor.com/' target='_blank'>华彩软件</a> | <a href='http://www.33lc.com/' target='_blank'>绿茶软件</a> | <a href='http://www.cr173.com/' target='_blank'>西西软件</a> | <a href='http://www.orsoon.com/' target='_blank'>未来软件</a> | <a href='http://www.9553.com/' target='_blank'>9553下载</a> | <a href='http://www.pc6.com/' target='_blank'>pc6软件</a> | <a href='http://www.9ht.com/' target='_blank'>九号塔</a> | <a href='http://www.paopaoche.net/' target='_blank'>跑跑车</a>
